@@ -1,0 +1,4 @@
+kubectl create secrets generic db-creds --from-literal=DB_USER=admin --from-literal=DB_PASS=s3cretP@ss
+
+kubectl create configmap app-config --from-literal=APP_HOMD
+=production --from-literal=LOG_LEVEL=debug
