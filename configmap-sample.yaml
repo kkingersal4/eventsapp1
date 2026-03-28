@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  APP_HOME: production
+  LOG_LEVEL: debug
+kind: ConfigMap
+metadata:
+  name: app-config1
