@@ -43,7 +43,7 @@ spec:
       name: data
     spec:
       accessModes: [ "ReadWriteOnce" ]
-      #storageClassName: "ALLOWVOLUMEEXPANSION"
+      storageClassName: "standard"
       resources:
         requests:
           storage: 1Gi
