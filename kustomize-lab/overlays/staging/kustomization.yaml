@@ -1,0 +1,8 @@
+commonLabels:
+  app: staging
+namespace: exercise-14
+bases:
+   - ../../base
+replicas:
+- name: app
+  count: 3
