@@ -1,8 +1,18 @@
-commonLabels:
-  app: staging
+resources:
+- ../../base
+
 namespace: exercise-14
-bases:
-   - ../../base
+
+CommonLabels:
+  env: staging
+
+Labels:
+  - pairs:
+      env: staging
+
 replicas:
 - name: app
   count: 3
+
+# patches:
+#  path: replica_count.yaml
