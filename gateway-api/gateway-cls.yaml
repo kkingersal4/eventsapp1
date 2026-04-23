@@ -2,5 +2,6 @@ apiVersion: gateway.networking.k8s.io/v1
 kind: GatewayClass
 metadata:
   name: web-class
+  namepsace: exercise-15
 spec:
   controllerName: example.com/gateway-controller

@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: web
+  namespace: exercise-15
   labels:
     app: web
 spec:
